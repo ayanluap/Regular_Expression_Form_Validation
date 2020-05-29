@@ -32,7 +32,7 @@ function validateEmail() {
 }
 
 function validateZip() {
-  const re = /^[0-9]{5}$/;
+  const re = /^[0-9]{6}$/;
   if (!re.test(zip.value)) {
     zip.classList.add('is-invalid');
   } else {
